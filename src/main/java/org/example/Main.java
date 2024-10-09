@@ -1,7 +1,10 @@
 package org.example;
 
+
+import static org.example.challenges.Challenge1Kt.fizzbuzz;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        fizzbuzz(1, 100);
     }
 }
