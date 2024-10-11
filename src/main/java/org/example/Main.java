@@ -1,14 +1,16 @@
 package org.example;
 
 
-import static org.example.challenges.Challenge2.translateToLeet;
-import static org.example.challenges.Challenge2Kt.translateToLeetKt;
+import java.util.List;
+
+import static org.example.challenges.Challenge3.playTennis;
+import static org.example.challenges.Challenge3Kt.playTennisKt;
 
 public class Main {
     public static void main(String[] args) {
-        String translation = translateToLeet("Hola mundo vagabundo");
-        String translationKt = translateToLeetKt("Hola mundo vagabundo");
-        System.out.println(translation);
-        System.out.println(translationKt);
+        List<String> sequence = List.of("P1", "P1", "P2", "P2", "P1", "P2", "P1", "P1");
+        playTennis(sequence);
+        System.out.println('\n');
+        playTennisKt(sequence);
     }
 }

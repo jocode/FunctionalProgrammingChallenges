@@ -1,4 +1,4 @@
-# Reto #1: EL "LENGUAJE HACKER"
+# Reto #2: EL "LENGUAJE HACKER"
 #### Dificultad: Fácil
 
 ## Enunciado
